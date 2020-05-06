@@ -186,27 +186,60 @@ main > div > div > p:last-child{
     color: #FF8400;
 }
 
+main > div > div:hover{
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .1);
+}
+
+main > div > div:hover > div{
+    background-color: #FF8400;
+}
+
 /* Img services ---------------------------------*/
 .img1{
     background-image: url(media/icon-7.png);
+}
+
+main > div > div:hover .img1{
+    background-image: url(media/icon-7_hover.png);
 }
 
 .img2{
     background-image: url(media/icon-9.png);
 }
 
+main > div > div:hover .img2{
+    background-image: url(media/icon-9_hover.png);
+}
+
 .img3{
     background-image: url(media/icon-11.png);
+}
+
+main > div > div:hover .img3{
+    background-image: url(media/icon-11_hover.png);
 }
 
 .img4{
     background-image: url(media/icon-5.png);
 }
 
+main > div > div:hover .img4{
+    background-image: url(media/icon-5_hover.png);
+}
+
 .img5{
     background-image: url(media/icon-1.png);
 }
 
+main > div > div:hover .img5{
+    background-image: url(media/icon-1_hover.png);
+}
+
 .img6{
     background-image: url(media/icon-3.png);
+}
+
+main > div > div:hover .img6{
+    background-image: url(media/icon-3_hover.png);
 }
