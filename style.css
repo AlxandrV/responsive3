@@ -262,3 +262,13 @@ main > div > div:hover .img6{
         width: 50%;
     }
 }
+
+@media (max-width: 575.98px){
+    header > div{
+        flex-direction: column;
+    }
+
+    header > div > div{
+        width: 100%;
+    }
+}
