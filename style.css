@@ -63,6 +63,12 @@
     color: #FF8400;
 }
 
+/* Background ------------------------------------*/
+.bg-norepeat{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Flex ------------------------------------------*/
 .d-flex{
     display: flex;
@@ -95,8 +101,10 @@
 body{
     margin: 0;
     font-family: 'Rubik-Regular', sans-serif;
+    color: #5E5E5E;
 }
 
+/* Header ----------------------------------------*/
 header{
     margin-bottom: 7rem;
 }
@@ -130,4 +138,75 @@ h2{
 
 header > p{
     padding-bottom: 11.375rem;
+}
+
+/* Main ------------------------------------------*/
+h3{
+    font-size: 2.25rem;
+    color: #2D2E30;
+}
+
+h5{
+    font-size: 1.25rem;
+    color: #2E2E2E;
+}
+
+h3, h5{
+    font-family: 'Rubik-Medium', sans-serif;
+}
+
+main > p{
+    width: 40.15%;
+    margin: auto auto 2.875rem;
+}
+
+main > div{
+    width: 59.3%;
+    flex-wrap: wrap;
+}
+
+main > div > div{
+    width: 33.33%;
+    height: 21.875rem;
+    box-sizing: border-box;
+    padding: 2.5rem 1.875rem 0 1.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main > div > div > div{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .1);
+}
+
+main > div > div > p:last-child{
+    color: #FF8400;
+}
+
+/* Img services ---------------------------------*/
+.img1{
+    background-image: url(media/icon-7.png);
+}
+
+.img2{
+    background-image: url(media/icon-9.png);
+}
+
+.img3{
+    background-image: url(media/icon-11.png);
+}
+
+.img4{
+    background-image: url(media/icon-5.png);
+}
+
+.img5{
+    background-image: url(media/icon-1.png);
+}
+
+.img6{
+    background-image: url(media/icon-3.png);
 }
